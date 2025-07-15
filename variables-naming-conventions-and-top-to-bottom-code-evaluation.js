@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let firstName = "Alice";
+let lastName = "Ecila";
+let itemsBought = 5;
+let itemPrice = 4;
+let totalCost = itemsBought * itemPrice
+let message = firstName + " " + lastName + " bought " + itemsBought + " items for $" + itemPrice + ".";
 
-console.log(d);
+console.log(message);
