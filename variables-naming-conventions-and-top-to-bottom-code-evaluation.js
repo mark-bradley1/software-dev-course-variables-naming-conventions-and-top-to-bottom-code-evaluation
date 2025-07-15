@@ -29,6 +29,6 @@ let lastName = "Ecila";
 let itemsBought = 5;
 let itemPrice = 4;
 let totalCost = itemsBought * itemPrice
-let message = firstName + " " + lastName + " bought " + itemsBought + " items for $" + itemPrice + ".";
+let message = firstName + " " + lastName + " bought " + itemsBought + " items for $" + totalCost + ".";
 
 console.log(message);
